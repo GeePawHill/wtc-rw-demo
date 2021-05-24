@@ -30,7 +30,7 @@ dependencies {
 }
 
 application {
-    mainClassName = "org.geepawhill.rws.AppKt"
+    mainClass.set("org.geepawhill.rws.AppKt")
 }
 
 kotlin {
