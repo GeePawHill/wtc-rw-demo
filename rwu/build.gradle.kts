@@ -4,7 +4,7 @@ group = "org.geepawhill"
 version = "1.0-SNAPSHOT"
 
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.5.10"
+    id("org.jetbrains.kotlin.jvm")
 }
 
 repositories {
