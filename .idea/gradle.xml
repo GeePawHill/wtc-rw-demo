@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/rws" />
+            <option value="$PROJECT_DIR$/rwu" />
           </set>
         </option>
       </GradleProjectSettings>
