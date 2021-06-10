@@ -10,8 +10,6 @@ plugins {
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
 
@@ -21,7 +19,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("org.geepawhill.rws.AppKt")
+    mainClass.set("org.geepawhill.rws.ServerKt")
 }
 
 kotlin {

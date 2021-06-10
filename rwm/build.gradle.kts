@@ -23,7 +23,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("org.geepawhill.rwm.MainKt")
+    mainClass.set("org.geepawhill.rwm.MakerMainKt")
 }
 
 kotlin {

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class MakingTest {
     @Test
     fun testAppHasAGreeting() {
-        val classUnderTest = App()
+        val classUnderTest = Client()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
     }
 }

@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test
 class ServerTest {
     @Test
     fun testAppHasAGreeting() {
-        val classUnderTest = App()
+        val classUnderTest = Server()
         assertThat(classUnderTest.greeting).isEqualTo( "Hello world.")
     }
 }

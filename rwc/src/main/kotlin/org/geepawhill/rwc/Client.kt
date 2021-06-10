@@ -3,13 +3,14 @@
  */
 package org.geepawhill.rwc
 
-class App {
+import org.geepawhill.rwu.Library
+
+class Client {
     val greeting: String
         get() {
             return "Hello world."
         }
-}
 
-fun main(args: Array<String>) {
-    println(App().greeting)
+    // Prove that we depend on rwu
+    val library = Library()
 }

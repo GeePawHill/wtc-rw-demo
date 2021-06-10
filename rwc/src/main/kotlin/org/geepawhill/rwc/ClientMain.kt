@@ -3,8 +3,8 @@ package org.geepawhill.rwc
 import tornadofx.App
 import tornadofx.launch
 
-class Main : App(MainView::class)
+class ClientMain : App(ClientView::class)
 
 fun main() {
-    launch<Main>()
+    launch<ClientMain>()
 }

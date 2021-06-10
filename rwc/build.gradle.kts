@@ -23,7 +23,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("org.geepawhill.rwc.MainKt")
+    mainClass.set("org.geepawhill.rwc.ClientMainKt")
 }
 
 kotlin {
