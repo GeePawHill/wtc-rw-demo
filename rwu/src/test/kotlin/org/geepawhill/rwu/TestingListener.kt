@@ -1,4 +1,4 @@
-package org.geepawhill.rws
+package org.geepawhill.rwu
 
 data class ReceivedSay(val talker: Talker, val message: String)
 
@@ -13,7 +13,7 @@ class TestingListener : Listener {
     override fun death(talker: Talker) {
         talkers.remove(talker)
     }
-    
+
     override fun hear(talker: Talker, message: String) {
         messages.add(ReceivedSay(talker, message))
     }

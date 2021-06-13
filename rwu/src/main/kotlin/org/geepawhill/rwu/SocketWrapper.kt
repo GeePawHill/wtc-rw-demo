@@ -1,4 +1,4 @@
-package org.geepawhill.rws
+package org.geepawhill.rwu
 
 import java.io.InputStream
 import java.io.OutputStream

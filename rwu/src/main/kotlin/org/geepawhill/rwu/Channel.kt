@@ -1,4 +1,4 @@
-package org.geepawhill.rws
+package org.geepawhill.rwu
 
 import java.io.BufferedReader
 import java.io.IOException

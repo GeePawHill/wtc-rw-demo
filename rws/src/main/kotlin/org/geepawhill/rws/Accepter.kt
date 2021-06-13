@@ -1,5 +1,8 @@
 package org.geepawhill.rws
 
+import org.geepawhill.rwu.Channel
+import org.geepawhill.rwu.Listener
+import org.geepawhill.rwu.SocketWrapper
 import java.io.IOException
 import java.net.ServerSocket
 

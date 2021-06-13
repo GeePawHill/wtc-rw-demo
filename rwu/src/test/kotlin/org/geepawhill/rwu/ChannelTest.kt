@@ -1,4 +1,4 @@
-package org.geepawhill.rws
+package org.geepawhill.rwu
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
@@ -10,7 +10,7 @@ class ChannelTest {
     // For all tests, The input has one line, read during the run() call.
     // the second time through the loop in run(), it will reach EOF, which is the same as if the 
     // socket were closed
-    
+
     private val inputStream = INPUT_STRING.byteInputStream()
     private val outputStream = ByteArrayOutputStream()
     private val socket = SocketWrapper(inputStream, outputStream, "TEST")

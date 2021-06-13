@@ -1,4 +1,4 @@
-package org.geepawhill.rws
+package org.geepawhill.rwu
 
 interface Listener {
     fun birth(talker: Talker)
