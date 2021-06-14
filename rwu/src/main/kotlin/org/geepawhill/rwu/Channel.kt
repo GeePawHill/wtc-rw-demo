@@ -24,7 +24,7 @@ class Channel(socket: SocketWrapper, private val listener: Listener) : Talker, R
             while (true) {
                 val message = input.readLine()
                 if (message != null) listener.hear(this, message)
-                break
+                else break
             }
         } finally {
             closeQuietly()

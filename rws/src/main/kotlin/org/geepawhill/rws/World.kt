@@ -14,5 +14,6 @@ class World : Listener {
 
     override fun hear(talker: Talker, message: String) {
         println("$talker: $message")
+        talker.say("You said '$message'.")
     }
 }

@@ -3,14 +3,9 @@
  */
 package org.geepawhill.rwc
 
-import org.geepawhill.rwu.Library
-
 class Client {
     val greeting: String
         get() {
             return "Hello world."
         }
-
-    // Prove that we depend on rwu
-    val library = Library()
 }
