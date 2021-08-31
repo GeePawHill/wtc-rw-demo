@@ -7,6 +7,7 @@ plugins {
     application
     java
     kotlin("jvm")
+    kotlin("plugin.serialization") version "1.5.30"
 }
 
 repositories {
@@ -16,6 +17,7 @@ repositories {
 dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2")
 }
 
 application {
