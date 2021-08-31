@@ -25,4 +25,9 @@ class CommanderTest {
         assertThat(commander.receive(input)).isExactlyInstanceOf(UnknownCommand::class.java)
     }
 
+    @Test
+    fun `launch command is LaunchCommand`() {
+        val input = Json.encodeToString(JsonCommand("", "launch"))
+        assertThat(commander.receive(input)).isExactlyInstanceOf(LaunchCommand::class.java)
+    }
 }

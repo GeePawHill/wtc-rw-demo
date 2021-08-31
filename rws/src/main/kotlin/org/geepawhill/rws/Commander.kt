@@ -7,7 +7,10 @@ class Commander {
     fun receive(message: String): Command {
         try {
             val attempt = Json.decodeFromString<JsonCommand>(message)
-            if (attempt.command != "launch") return UnknownCommand()
+            return when (attempt.command) {
+                "launch" -> LaunchCommand()
+                else -> UnknownCommand()
+            }
         } catch (e: Exception) {
             return IllFormedCommand()
         }
